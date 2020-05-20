@@ -50,7 +50,7 @@ defmodule TzWorld.Backend.DetsWithIndexCache do
 
   @slots 800
   defp dets_options do
-    [file: filename(), estimated_no_objects: @slots]
+    [file: "timezones-geodata.dets", estimated_no_objects: @slots]
   end
 
   @doc false
